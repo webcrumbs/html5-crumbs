@@ -11,7 +11,7 @@
 5. [step05](https://github.com/cvd-lab/html5-crumbs/blob/master/step05) - draw black circles
 7. [step06](https://github.com/cvd-lab/html5-crumbs/blob/master/step06) - add a clear button
 6. [step07](https://github.com/cvd-lab/html5-crumbs/blob/master/step07) - change circles radius
-8. [step08](https://github.com/cvd-lab/html5-crumbs/blob/master/step08) - change canvas background
+8. [step08](https://github.com/cvd-lab/html5-crumbs/blob/master/step08) - change canvas background color
 9. [step09](https://github.com/cvd-lab/html5-crumbs/blob/master/step09) - style
 10. [step10](https://github.com/cvd-lab/html5-crumbs/blob/master/step10) - use sliders to select drawing color
 

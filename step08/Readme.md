@@ -1,3 +1,3 @@
 # Step 7
 
-replace color buttons with sliders
+add three sliders to change canvas background color components *R*, *G*, *B*

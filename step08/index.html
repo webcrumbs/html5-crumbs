@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML5 crumbs</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>HTML5 crumbs</h1>
+  </header>
+  <section>
+    <div class="container">
+      <h3>Containers background color</h3>
+      <button type="button" id="button-white">White</button>
+      <button type="button" id="button-gray">Gray</button>
+    </div>
+    <div class="container">
+      <h3>Canvas<h3>
+      <canvas id="paper" width="400" height="300">
+        Your browser doesn't support HTML5 Canvas.
+      </canvas>
+    </div>
+    <div class="container">
+      <h3>Clear canvas</h3>
+      <button type="button" id="button-clear">Clear</button>
+    </div>
+    <div class="container">
+      <h3>Circle radius</h3>
+      <input id="slider-radius" type="range" min="5" max="30" value="15" step="1" />
+      <span id="monitor-radius">15</span>
+    </div>
+    <div class="container">
+      <h3>Canvas background color</h3>
+      <div><span>R</span><input id="slider-bg-red" type="range" min="0" max="255" value="232" step="1" /></div>
+      <div><span>G</span><input id="slider-bg-green" type="range" min="0" max="255" value="232" step="1" /></div>
+      <div><span>B</span><input id="slider-bg-blue" type="range" min="0" max="255" value="232" step="1" /></div>
+    </div>
+  </section>
+  <footer>
+    <p>HTML5 crumbs are baked by <a href="http://www.dia.uniroma3.it/~cvdlab/">CVD LAB</a></p>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
