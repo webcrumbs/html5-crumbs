@@ -5,13 +5,22 @@
   var width = canvas.width();
   var height = canvas.height();
 
-  var button_red = $('#button-red');
-  var button_green = $('#button-green');
-  var button_blue = $('#button-blue');
-
   var button_white = $('#button-white');
   var button_gray = $('#button-gray');
   var containers = $('.container');
+
+  var initCanvas = function () {
+    ctx.clearRect(0, 0, width, height);
+    ctx.fillStyle = 'rgb(232,232,232)';
+    ctx.fillRect(0, 0, width, height);
+    ctx.fillStyle = 'rgb(0,0,0)';
+  };
+
+  var drawCircle = function (x, y, radius) {
+    ctx.beginPath();
+    ctx.arc(x, y, radius, 0, 2*Math.PI, true);
+    ctx.fill();
+  };
 
   button_white.on('click', function (e) {
     containers.removeClass('bg-gray');
@@ -23,22 +32,10 @@
     containers.addClass('bg-gray');
   });
 
-  button_red.on('click', function (e) {
-    ctx.clearRect(0, 0, width, height);
-    ctx.fillStyle = 'rgb(255,0,0)';
-    ctx.fillRect(0, 0, width, height);
+  canvas.on('mousedown', function (e) {
+    drawCircle(e.offsetX, e.offsetY, 16);
   });
 
-  button_green.on('click', function (e) {
-    ctx.clearRect(0, 0, width, height);
-    ctx.fillStyle = 'rgb(0,255,0)';
-    ctx.fillRect(0, 0, width, height);
-  });
-
-  button_blue.on('click', function (e) {
-    ctx.clearRect(0, 0, width, height);
-    ctx.fillStyle = 'rgb(0,0,255)';
-    ctx.fillRect(0, 0, width, height);
-  });
+  initCanvas();
 
 }(this));

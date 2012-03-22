@@ -1,6 +1,6 @@
-# Step 5
+# Step 6
 
-draw black circles on canvas
+add a canvas clear button
 
 # Links
 
