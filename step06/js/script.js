@@ -5,11 +5,11 @@
   var width = canvas.width();
   var height = canvas.height();
 
-  var button_white = $('#button-white');
-  var button_gray = $('#button-gray');
+  var buttonWhite = $('#button-white');
+  var buttonGray = $('#button-gray');
   var containers = $('.container');
 
-  var button_clear = $('#button-clear');
+  var buttonClear = $('#button-clear');
 
   var initCanvas = function () {
     ctx.clearRect(0, 0, width, height);
@@ -25,12 +25,12 @@
     ctx.stroke();
   };
 
-  button_white.on('click', function (e) {
+  buttonWhite.on('click', function (e) {
     containers.removeClass('bg-gray');
     containers.addClass('bg-white');
   });
 
-  button_gray.on('click', function (e) {
+  buttonGray.on('click', function (e) {
     containers.removeClass('bg-white');
     containers.addClass('bg-gray');
   });
@@ -39,7 +39,7 @@
     drawCircle(e.offsetX, e.offsetY, 16);
   });
 
-  button_clear.on('click', function (e) {
+  buttonClear.on('click', function (e) {
     initCanvas();
   });
 

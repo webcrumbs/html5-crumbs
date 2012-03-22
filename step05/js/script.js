@@ -3,8 +3,8 @@
   var canvas = $('#paper');
   var ctx = canvas[0].getContext("2d");
 
-  var button_white = $('#button-white');
-  var button_gray = $('#button-gray');
+  var buttonWhite = $('#button-white');
+  var buttonGray = $('#button-gray');
   var containers = $('.container');
 
   var drawCircle = function (x, y, radius) {
@@ -13,12 +13,12 @@
     ctx.stroke();
   };
 
-  button_white.on('click', function (e) {
+  buttonWhite.on('click', function (e) {
     containers.removeClass('bg-gray');
     containers.addClass('bg-white');
   });
 
-  button_gray.on('click', function (e) {
+  buttonGray.on('click', function (e) {
     containers.removeClass('bg-white');
     containers.addClass('bg-gray');
   });

@@ -40,7 +40,7 @@
     ctx.clearRect(0, 0, width, height);
     ctx.fillStyle = bgColor;
     ctx.fillRect(0, 0, width, height);
-    ctx.fillStyle = 'rgb(0,0,0)';
+    ctx.strokeStyle = 'rgb(0,0,0)';
     ctx.lineWidth = 2;
   };
 

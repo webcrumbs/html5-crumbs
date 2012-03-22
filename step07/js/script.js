@@ -6,20 +6,20 @@
   var height = canvas.height();
   var radius;
 
-  var button_white = $('#button-white');
-  var button_gray = $('#button-gray');
+  var buttonWhite = $('#button-white');
+  var buttonGray = $('#button-gray');
   var containers = $('.container');
 
-  var button_clear = $('#button-clear');
+  var buttonClear = $('#button-clear');
 
-  var slider_radius = $('#slider-radius');
-  var monitor_radius = $('#monitor-radius');
+  var sliderRadius = $('#slider-radius');
+  var monitorRadius = $('#monitor-radius');
 
   var initCanvas = function () {
     ctx.clearRect(0, 0, width, height);
     ctx.fillStyle = 'rgb(232,232,232)';
     ctx.fillRect(0, 0, width, height);
-    ctx.fillStyle = 'rgb(0,0,0)';
+    ctx.strokeStyle = 'rgb(0,0,0)';
     ctx.lineWidth = 2;
   };
 
@@ -29,12 +29,12 @@
     ctx.stroke();
   };
 
-  button_white.on('click', function (e) {
+  buttonWhite.on('click', function (e) {
     containers.removeClass('bg-gray');
     containers.addClass('bg-white');
   });
 
-  button_gray.on('click', function (e) {
+  buttonGray.on('click', function (e) {
     containers.removeClass('bg-white');
     containers.addClass('bg-gray');
   });
@@ -43,15 +43,15 @@
     drawCircle(e.offsetX, e.offsetY, radius);
   });
 
-  button_clear.on('click', function (e) {
+  buttonClear.on('click', function (e) {
     initCanvas();
   });
 
-  slider_radius.on('change', function (e) {
-    var value = slider_radius.attr('value');
+  sliderRadius.on('change', function (e) {
+    var value = sliderRadius.attr('value');
 
     radius = value;
-    monitor_radius.text(value);
+    monitorRadius.text(value);
   });
 
   initCanvas();
