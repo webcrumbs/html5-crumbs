@@ -8,11 +8,12 @@
 2. [step02](https://github.com/cvd-lab/html5-crumbs/blob/master/step02) - html5 structure
 3. [step03](https://github.com/cvd-lab/html5-crumbs/blob/master/step03) - bind a greeting callback
 4. [step04](https://github.com/cvd-lab/html5-crumbs/blob/master/step04) - add two buttons
-5. [step05](https://github.com/cvd-lab/html5-crumbs/blob/master/step05) - change canvas background
-5. [step06](https://github.com/cvd-lab/html5-crumbs/blob/master/step06) - draw black circles
-6. [step07](https://github.com/cvd-lab/html5-crumbs/blob/master/step07) - style
-7. [step08](https://github.com/cvd-lab/html5-crumbs/blob/master/step08) - use sliders to select  backgroud color
-8. [step09](https://github.com/cvd-lab/html5-crumbs/blob/master/step09) - use sliders to select drawing color
+5. [step05](https://github.com/cvd-lab/html5-crumbs/blob/master/step05) - draw black circles
+7. [step06](https://github.com/cvd-lab/html5-crumbs/blob/master/step06) - add a clear button
+6. [step07](https://github.com/cvd-lab/html5-crumbs/blob/master/step07) - change circles radius
+8. [step08](https://github.com/cvd-lab/html5-crumbs/blob/master/step08) - change canvas background
+9. [step09](https://github.com/cvd-lab/html5-crumbs/blob/master/step09) - style
+10. [step10](https://github.com/cvd-lab/html5-crumbs/blob/master/step10) - use sliders to select drawing color
 
 ### Bakers
 
