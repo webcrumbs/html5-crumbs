@@ -4,7 +4,7 @@
   var ctx = canvas[0].getContext("2d");
   var width = canvas.width();
   var height = canvas.height();
-  var radius;
+  var radius = 15;
 
   var buttonWhite = $('#button-white');
   var buttonGray = $('#button-gray');

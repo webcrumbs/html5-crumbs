@@ -1,6 +1,6 @@
 !(function (exports) {
 
-  var myButton = $('#myButton');
+  var myButton = $('#mybutton');
 
   var greets = function (e) {
     alert('Hello Web :)');
