@@ -2,6 +2,18 @@
   margin: 2px;
 }
 
+.container {
+  margin: 2px;
+}
+
+.bg-white {
+  background-color: rgb(255,255,255);
+}
+
+.bg-gray {
+  background-color: rgb(192,192,192);
+}
+
 #paper {
   border: 2px solid gray;
 }
