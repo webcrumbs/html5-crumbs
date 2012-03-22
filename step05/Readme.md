@@ -1,8 +1,9 @@
-# Step 5
+# Step 4
 
-draw black circles on canvas
+add three buttons to change canvas background color
 
-# Links
+## Links
 
 - [Mozilla Canvas Tutorial](https://developer.mozilla.org/en/Canvas_tutorial)
 - [HTML5 Canvas Cheat Sheet](http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf)
+

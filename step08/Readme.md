@@ -1,3 +1,3 @@
-# Step 8
+# Step 7
 
-add sliders to select drawing color
+replace color buttons with sliders

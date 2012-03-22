@@ -1,3 +1,3 @@
-# Step 7
+# Step 6
 
-replace color buttons with sliders
+style
