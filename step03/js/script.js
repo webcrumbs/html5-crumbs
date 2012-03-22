@@ -6,6 +6,6 @@
     alert('Hello Web :)');
   }
 
-  mybutton.bind('click', greets);
+  mybutton.on('click', greets);
 
 }(this));
