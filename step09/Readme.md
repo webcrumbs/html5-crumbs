@@ -1,3 +1,7 @@
-# Step 8
+# Step 9
 
-add sliders to select drawing color
+style
+
+## Links
+
+- [CSS Reference](http://www.w3schools.com/cssref/default.asp)
