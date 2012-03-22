@@ -1,3 +1,3 @@
 # Step 5
 
-added some style
+draw black circles on canvas
