@@ -4,13 +4,13 @@
 
 ### Recipe
 
-1. [step01](https://github.com/cvd-lab/html5-crumbs/blob/master/step01/Readme.md) - app starting point
-2. [step02](https://github.com/cvd-lab/html5-crumbs/blob/master/step02/Readme.md) - html5 structure
-3. [step03](https://github.com/cvd-lab/html5-crumbs/blob/master/step03/Readme.md) - bind a greeting callback
-4. [step04](https://github.com/cvd-lab/html5-crumbs/blob/master/step04/Readme.md) - add three buttons
-5. [step05](https://github.com/cvd-lab/html5-crumbs/blob/master/step05/Readme.md) - draw black circles
-6. [step06](https://github.com/cvd-lab/html5-crumbs/blob/master/step06/Readme.md) - style
-7. [step07](https://github.com/cvd-lab/html5-crumbs/blob/master/step07/Readme.md) - use sliders to select  backgroud color
+1. [step01](https://github.com/cvd-lab/html5-crumbs/blob/master/step01) - app starting point
+2. [step02](https://github.com/cvd-lab/html5-crumbs/blob/master/step02) - html5 structure
+3. [step03](https://github.com/cvd-lab/html5-crumbs/blob/master/step03) - bind a greeting callback
+4. [step04](https://github.com/cvd-lab/html5-crumbs/blob/master/step04) - add three buttons
+5. [step05](https://github.com/cvd-lab/html5-crumbs/blob/master/step05) - draw black circles
+6. [step06](https://github.com/cvd-lab/html5-crumbs/blob/master/step06) - style
+7. [step07](https://github.com/cvd-lab/html5-crumbs/blob/master/step07) - use sliders to select  backgroud color
 8. [step08](https://github.com/cvd-lab/html5-crumbs/blob/master/step08/Readme.md) - use sliders to select drawing color
 
 ### Bakers
@@ -19,10 +19,6 @@
 - Federico Spini / [@federicospini](https://twitter.com/#!/federicospini)
 
 ### Flour
-
-- [Mozilla Canvas Tutorial](https://developer.mozilla.org/en/Canvas_tutorial)
-- [HTML5 Canvas Cheat Sheet](http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf)
-- [jQuery documentation](http://docs.jquery.com/Main_Page)
 - ADD SOME BOOK REFERENCES
 
 ## License
