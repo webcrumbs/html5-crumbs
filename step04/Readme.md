@@ -1,6 +1,6 @@
 # Step 4
 
-add three buttons to change container background color to *R* *G* *B*
+add two buttons to change container background color
 
 ## Links
 
