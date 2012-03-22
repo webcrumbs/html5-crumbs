@@ -1,3 +1,3 @@
-step 6:
+# Step 6
 
-added rgb sliders to select drawing color
+added rgb sliders to select canvas drawing color

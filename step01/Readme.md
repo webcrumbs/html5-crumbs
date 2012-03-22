@@ -1,3 +1,3 @@
-step 1:
+# Step 1
 
-this is a project starting point
+project starting point

@@ -1,3 +1,3 @@
-step 4:
+# Step 4
 
-replaced greeting button with three buttons to change the canvas background color
+replaced greeting button with two buttons to change the canvas background color
