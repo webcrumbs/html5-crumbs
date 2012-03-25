@@ -21,7 +21,10 @@
 - Federico Spini / [@federicospini](https://twitter.com/#!/federicospini)
 
 ### Flour
-- ADD SOME BOOK REFERENCES
+- HTML5 Up and Running - Mark Pilgrim
+- Pro HTML5 Programming - Peter Lubbers, Brian Albers, Frank Salim
+- Pro HTML5 and CSS3 Design Patterns - Michael Browsers, Dionysios Synodinos, Victor Summer
+- The Book of CSS3 - Peter Gasston
 
 ## License
 
