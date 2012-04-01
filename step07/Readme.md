@@ -1,6 +1,6 @@
 # Step 7
 
-add two slides to change circles radius
+add a slide to change circles radius
 
 ## Links
 
