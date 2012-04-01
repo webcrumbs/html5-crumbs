@@ -21,10 +21,11 @@
 - Federico Spini / [@federicospini](https://twitter.com/#!/federicospini)
 
 ### Flour
-- HTML5 Up and Running - Mark Pilgrim
-- Pro HTML5 Programming - Peter Lubbers, Brian Albers, Frank Salim
-- Pro HTML5 and CSS3 Design Patterns - Michael Browsers, Dionysios Synodinos, Victor Summer
-- The Book of CSS3 - Peter Gasston
+- **HTML5 Up and Running** - Mark Pilgrim
+- **Pro HTML5 Programming** - Peter Lubbers, Brian Albers, Frank Salim
+- **Pro HTML5 and CSS3 Design Patterns** - Michael Browsers, Dionysios Synodinos, Victor Summer
+- **CSS3 Visual Quickstart Guide** - Jason Cranford Teague
+- **The Book of CSS3** - Peter Gasston
 
 ## License
 
