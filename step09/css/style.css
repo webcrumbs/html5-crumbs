@@ -1,48 +1,15 @@
-html, body {
-  height: 100%;
+.container {
+  margin: 2px;
 }
 
-.container {
-  margin: 4px;
-  padding: 4px;
+.bg-white {
+  background-color: rgb(255,255,255);
+}
+
+.bg-gray {
   background-color: rgb(192,192,192);
 }
 
 #paper {
   border: 2px solid gray;
-}
-
-h1 {
-  font-size: 32px;
-  color: black;
-  margin: 4px;
-  padding: 8px 4px 8px 4px;
-  border: 1px solid rgb(192,192,192);
-}
-
-h3 {
-  font-size: 16px;
-  color: black;
-  margin: 4px 0px 4px 0px;
-  padding: 2px 1px 2px 1px;
-  border: 1px solid rgb(242,242,242);
-}
-
-span {
-  font-size: 16px;
-  color: black;
-
-}
-
-input {
-  padding-top: 3px;
-  margin-top: 3px;
-}
-
-footer {
-  font-size: 12px;
-  color: black;
-  margin: 4px;
-  padding: 4px;
-  border: 1px solid rgb(192,192,192);
 }

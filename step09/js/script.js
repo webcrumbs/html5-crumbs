@@ -5,6 +5,7 @@
   var width = canvas.width();
   var height = canvas.height();
   var radius = 15;
+  var circleComponentsDefault = [0,0,0];
   var bgComponentsDefault = [232,232,232];
 
   var buttonWhite = $('#button-white');
@@ -22,33 +23,50 @@
 
   var bgComponents = bgComponentsDefault;
 
+  var sliderCircleRed = $('#slider-circle-red');
+  var sliderCircleGreen = $('#slider-circle-green');
+  var sliderCircleBlue = $('#slider-circle-blue');
+
+  var circleComponents = circleComponentsDefault;
+
   var circles = [];
 
-  var Circle = function (x, y, raduis) {
+  var colorMonitor = $('#color-monitor');
+
+  var Circle = function (x, y, raduis, color) {
     this.x = x;
     this.y = y;
     this.radius = radius;
+    this.color = color;
   }
 
   Circle.prototype.draw = function() {
+    ctx.strokeStyle = this.color;
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.radius, 0, 2*Math.PI, true);
     ctx.stroke();
+  };
+
+  var stringifyRGB = function (components) {
+    return 'rgb(' + components.join() + ')';
   };
 
   var initCanvas = function (bgColor) {
     ctx.clearRect(0, 0, width, height);
     ctx.fillStyle = bgColor;
     ctx.fillRect(0, 0, width, height);
-    ctx.strokeStyle = 'rgb(0,0,0)';
     ctx.lineWidth = 2;
   };
 
   var draw = function () {
-    initCanvas('rgb(' + bgComponents.join() + ')');
+    initCanvas(stringifyRGB(bgComponents));
     circles.forEach(function (circle) {
       circle.draw();
     });
+  };
+
+  var updateColorMonitor = function () {
+    colorMonitor.css({'background-color': stringifyRGB(circleComponents)});
   };
 
   buttonWhite.on('click', function (e) {
@@ -62,7 +80,8 @@
   });
 
   canvas.on('mousedown', function (e) {
-    circles.push(new Circle(e.offsetX, e.offsetY, radius));
+    var color = stringifyRGB(circleComponents);
+    circles.push(new Circle(e.offsetX, e.offsetY, radius, color));
     draw();
   });
 
@@ -94,6 +113,22 @@
     draw();
   });
 
-  initCanvas('rgb(' + bgComponents.join() + ')');
+  sliderCircleRed.on('change', function (e) {
+    circleComponents[0] = $(this).attr('value');
+    updateColorMonitor();
+  });
+
+  sliderCircleGreen.on('change', function (e) {
+    circleComponents[1] = $(this).attr('value');
+    updateColorMonitor();
+  });
+
+  sliderCircleBlue.on('change', function (e) {
+    circleComponents[2] = $(this).attr('value');
+    updateColorMonitor();
+  });
+
+  initCanvas(stringifyRGB(bgComponents));
+  updateColorMonitor(stringifyRGB(circleComponents));
 
 }(this));
