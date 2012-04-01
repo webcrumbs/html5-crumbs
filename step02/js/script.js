@@ -1,6 +1,6 @@
 !(function (exports) {
 
-  exports.selections = selections = {};
+  var selections = exports.selections = {};
 
   console.log('Here are SELECTORS:');
 
