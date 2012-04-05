@@ -17,8 +17,8 @@
 
 ### Bakers
 
-- Enrico Marino / [@onirame](https://twitter.com/#!/onirame)
-- Federico Spini / [@federicospini](https://twitter.com/#!/federicospini)
+- [Enrico Marino](http://onirame.no.de)
+- [Federico Spini](http://spini.no.de)
 
 ### Flour
 - **HTML5 Up and Running** - Mark Pilgrim
@@ -31,7 +31,7 @@
 
 (The MIT License)
 
-Copyright (c) 2011 cvd-lab &lt;cvd-lab@email.com&gt;
+Copyright (c) 2012 Enrico Marino and Federico Spini for CVD Lab ([http://dia.uniroma3.it/~cvdlab](http://dia.uniroma3.it/~cvdlab))
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
